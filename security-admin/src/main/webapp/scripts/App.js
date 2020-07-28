@@ -18,12 +18,8 @@
  */
 
  
-define(function(require) {
+define(['backbone','utils/XALangSupport','mgrs/SessionMgr', 'backbone.marionette'], function(Backbone, localization, SessionMgr) {
     'use strict';
-
-    var Backbone		= require('backbone'); 
-    var localization	= require('utils/XALangSupport');
-	var SessionMgr		= require('mgrs/SessionMgr');
     /*
      * Localization initialization
      */
